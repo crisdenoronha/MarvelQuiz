@@ -1,4 +1,5 @@
 from components import variables
+import webbrowser as wb
 
 
 def result(status):
@@ -117,19 +118,24 @@ def result(status):
     if variables.Hulk >= 3:
         answer = variables.Hulk
         print("\033[0;30;42mYou are Hulk\033[m")
+        wb.open("https://www.marvel.com/characters/hulk-bruce-banner")
 
     elif variables.IronMan >= 3:
         answer = variables.IronMan
         print("\033[0;37;41mYou are Iron Man\033[m")
+        wb.open("https://www.marvel.com/characters/iron-man-tony-stark")
 
     elif variables.CaptainAmerica >= 3:
         answer = variables.CaptainAmerica
         print("\033[0;37;44mYou are Captain America\033[m")
+        wb.open("https://www.marvel.com/characters/captain-america-steve-rogers")
 
     elif variables.AntMan >= 3:
         answer = variables.AntMan
         print("\033[0;31;43mYou are Ant-Man\033[m")
+        wb.open("https://www.marvel.com/characters/ant-man-scott-lang")
 
     else:
         answer = variables.DocStrange
         print("\033[0;30;47mYou are strange, Doctor Strange\033[m")
+        wb.open("https://www.marvel.com/characters/doctor-strange-stephen-strange")
