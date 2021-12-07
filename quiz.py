@@ -1,13 +1,14 @@
 from components import questions
 from components import variables
 
+
 quiz = False
 choice = ["y", "n"]
 
-print("\n---------------------------------------------------\n")
+print("\n\033[0;31;40m ---------------------------------------------------\n")
 print("                    Marvel Quiz                      \n")
 print("            Which Marvel character are you?          \n")
-print("\n---------------------------------------------------\n")
+print("\n---------------------------------------------------\033[m\n")
 
 while quiz is False:
     questions.result(variables.answer)
