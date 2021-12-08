@@ -6,12 +6,12 @@
 
 
 ## Prerequisites
-<p>You need <a href="https://www.python.org//">Python 3 </a> and <a href="https://pypi.org/project/Pillow/">Pillow</a> package to play.</p><br>
+<p>You need <a href="https://www.python.org//">Python 3</a> to play.</p><br>
 
 
 
 ## Usage
-<p>First, install Python 3 and Pillow package.
+<p>First, install Python 3.
 Second, clone the project, <code>cd</code> to your directory/download,<br> 
 and run the quiz.py file in a Python 3 shell (Terminal on a mac / Linux, Windows command prompt).</p><br>
 
