@@ -72,7 +72,7 @@ def result(status):
     # Question 4
     print("\n---------------------------------------------------\n")
     print("\033[0;33;40mWhich vehicle do you prefer?\n")
-    q4 = input("monster truck, lamborghini, harley-davidson, hotwheels:")
+    q4 = input("monster truck, lamborghini, harley-davidson, hotwheels:\033[m ")
 
     if q4 == "monster truck":
         variables.Hulk += 1
