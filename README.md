@@ -13,7 +13,7 @@
 ## Usage
 <p>First, install Python 3 and Pillow package.
 <br>Second, clone the project, <code>cd</code> to your directory/download,<br> 
-and run the _quiz.py_ file in a Python 3 shell (Terminal on a mac / Linux, Windows command prompt).</p><br>
+and run the quiz.py file in a Python 3 shell (Terminal on a mac / Linux, Windows command prompt).</p><br>
 
 
 
