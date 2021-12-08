@@ -12,7 +12,7 @@
 
 ## Usage
 <p>First, install Python 3.
-Second, clone the project, <code>cd</code> to your directory/download,<br> 
+<br>Second, clone the project, <code>cd</code> to your directory/download,<br> 
 and run the quiz.py file in a Python 3 shell (Terminal on a mac / Linux, Windows command prompt).</p><br>
 
 
